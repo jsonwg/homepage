@@ -5,7 +5,14 @@ const config = {
   purge: ['./src/**/*.{html,js,svelte,ts}'],
 
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        circuit: "url('/circuit-board.svg')",
+      },
+      boxShadow: {
+        dark: '0 0 10px rgba(0, 0, 0, 1)',
+      },
+    },
     colors: {
       transparent: 'transparent',
       gray: colors.gray,

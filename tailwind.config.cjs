@@ -8,6 +8,7 @@ const config = {
     extend: {
       backgroundImage: {
         circuit: "url('/circuit-board.svg')",
+        topography: "url('/topography.svg')",
       },
       boxShadow: {
         dark: '0 0 10px rgba(0, 0, 0, 1)',
